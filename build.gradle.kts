@@ -23,7 +23,7 @@ plugins {
 defaultTasks("build", "shadowJar")
 
 allprojects {
-    group = "de.conelux"
+    group = "org.conelux"
     version = "1.0"
 
     repositories {
