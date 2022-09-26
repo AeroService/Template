@@ -1,5 +1,5 @@
 /*
- * Copyright 2020-2022 NatroxMC
+ * Copyright 2020-2022 Conelux
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ plugins {
 defaultTasks("build", "shadowJar")
 
 allprojects {
-    group = "de.natrox"
+    group = "de.conelux"
     version = "1.0"
 
     repositories {
