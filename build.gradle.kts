@@ -24,7 +24,7 @@ defaultTasks("build", "shadowJar")
 
 allprojects {
     group = "org.aero"
-    version = "1.0"
+    version = "1.0.0"
 
     repositories {
         mavenCentral()
