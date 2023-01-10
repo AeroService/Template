@@ -1,5 +1,5 @@
 /*
- * Copyright 2020-2022 Conelux
+ * Copyright 2020-2023 AeroService
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ plugins {
 defaultTasks("build", "shadowJar")
 
 allprojects {
-    group = "org.conelux"
+    group = "org.aero"
     version = "1.0"
 
     repositories {
@@ -33,8 +33,8 @@ allprojects {
 }
 
 dependencies {
-    implementation("org.jetbrains:annotations:23.0.0")
-    implementation("org.slf4j:slf4j-api:2.0.2")
+    implementation("org.jetbrains:annotations:23.1.0")
+    implementation("org.slf4j:slf4j-api:2.0.5")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.1")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.9.1")
