@@ -33,7 +33,7 @@ allprojects {
 }
 
 dependencies {
-    implementation("org.jetbrains:annotations:23.1.0")
+    implementation("org.jetbrains:annotations:24.0.0")
     implementation("org.slf4j:slf4j-api:2.0.6")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
