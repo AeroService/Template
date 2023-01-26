@@ -14,15 +14,14 @@
  * limitations under the License.
  */
 
-enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-enableFeaturePreview("VERSION_CATALOGS")
-
-pluginManagement {
-    includeBuild("build-logic")
-    repositories {
-        gradlePluginPortal()
-    }
+plugins {
+    `kotlin-dsl`
 }
 
-rootProject.name = "Template"
+repositories {
+    gradlePluginPortal()
+}
+
+dependencies {
+    implementation("net.kyori", "indra-common", "3.0.1")
+}
